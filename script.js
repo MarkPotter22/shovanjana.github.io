@@ -129,15 +129,6 @@ window.addEventListener('load', () => {
     }
 });
 
-// Parallax Effect for Hero Section
-window.addEventListener('scroll', () => {
-    const scrolled = window.pageYOffset;
-    const hero = document.querySelector('.hero');
-    if (hero) {
-        const rate = scrolled * -0.5;
-        hero.style.transform = `translateY(${rate}px)`;
-    }
-});
 
 // Project Card Hover Effects
 document.addEventListener('DOMContentLoaded', () => {
